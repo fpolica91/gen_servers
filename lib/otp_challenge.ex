@@ -34,3 +34,10 @@ defmodule OtpChallenge.Queue do
     {:reply, head, tail}
   end
 end
+# curl -u fpolica91  -X POST -H "Accept: application/vnd.github.v3+json" https://api.github.com/user/repos -d '{"name":"genservers","private":false}'
+# curl \
+# -u fpolica91
+#   -X POST \
+#   -H "Accept: application/vnd.github.v3+json" \
+#   https://api.github.com/fpolica91/repos \
+#   -d '{"name":"genservers"}'
